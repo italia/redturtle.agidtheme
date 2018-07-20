@@ -39,3 +39,5 @@ report.html
 !.gitkeep
 !.travis.yml
 !src/redturtle
+/share/
+/extras/

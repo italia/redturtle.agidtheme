@@ -89,7 +89,7 @@ def changenewshome(context):
     'Import the changenewshome profile'
 
     registry = getUtility(IRegistry)
-    settings = registry.forInterface(
+    settings = registry.forInterface(  # noqa
                     IImagingSchema,
                     prefix='plone',
                     check=False

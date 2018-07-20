@@ -90,7 +90,7 @@ class LogoViewlet(base.ViewletBase):
         super(LogoViewlet, self).update()
         self.site_title = api.portal.get_registry_record('plone.site_title', )
 
-        # TODO: should this be changed to settings.site_title?
+        # TODO: should this be changed to settings.site_title?  # noqa
         self.navigation_root_title = self.site_title
         self.logo_title = self.site_title
         self.img_src = getSiteLogo()
