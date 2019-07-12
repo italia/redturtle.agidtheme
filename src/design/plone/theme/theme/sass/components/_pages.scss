@@ -6,11 +6,6 @@
 
 #parent-fieldname-text {
     a {
-        border-bottom: 1px solid $link-color;
-
-        &:hover,
-        &:focus {
-            border-bottom: 1px solid $link-hover-border-color;
-        }
+        text-decoration: underline;
     }
 }

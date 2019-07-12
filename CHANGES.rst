@@ -2,10 +2,11 @@ Changelog
 =========
 
 
-3.3.4 (unreleased)
+4.0.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Cambiata sottolineatura dei link nel testo e nelle tile e portlet di testo
+  [pnicolli]
 
 
 3.3.3 (2019-06-26)
